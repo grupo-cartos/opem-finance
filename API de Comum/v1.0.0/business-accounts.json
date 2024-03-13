@@ -1,0 +1,123 @@
+{
+    "data": {
+      "brand": {
+        "name": "Cartos SCD SA",
+        "companies": [
+          {
+            "cnpjNumber": "21332862000191",
+            "name": "Cartos SCD SA",
+            "businessAccounts": [
+              {
+                "type": "CONTA",
+                "fees": {
+                  "serviceBundles": [
+                    {
+                      "name": "CONTA_DIGITAL",
+                      "services": [
+                        {
+                          "code": "EMISSÃO_DE_CEDULA_DE_CREDITO_BANCARIO",
+                          "chargingTriggerInfo": "Sem taxas",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        },
+                        {
+                          "code": "ABERTURA_DE_CONTA_ESCROW",
+                          "chargingTriggerInfo": "Sem taxas",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        },
+                        {
+                          "code": "MOTOR_DE_CESSAO",
+                          "chargingTriggerInfo": "Sem taxas",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        },
+                        {
+                          "code": "PIX_INDIRETO",
+                          "chargingTriggerInfo": "Sem taxas",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        },
+                        {
+                          "code": "BANKING_AS_A_SERVICE",
+                          "chargingTriggerInfo": "Sem taxas",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        }
+                      ],
+                      "prices": [
+                        {
+                          "interval": "1_FAIXA",
+                          "value": "0.00",
+                          "currency": "BRL",
+                          "customers": {
+                              "rate": "0.0000"
+                          }
+                        },
+                        {
+                            "interval": "2_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                                "rate": "0.0000"
+                            }
+                        },
+                        {
+                            "interval": "3_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                                "rate": "0.0000"
+                            }
+                        },
+                        {
+                            "interval": "4_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                                "rate": "0.0000"
+                            }
+                        }
+                      ],
+                      "minimum": {
+                        "value": "0.00",
+                        "currency": "BRL"
+                      },
+                      "maximum": {
+                        "value": "0.00",
+                        "currency": "BRL"
+                      }
+                    }
+                  ]
+                },
+                "openingClosingChannels": [
+                  "MOBILE_BANKING",
+                  "CENTRAL_TELEFONICA",
+                  "CHAT"
+                ],
+                "transactionMethods": [
+                  "MOVIMENTACAO_ELETRONICA"
+                ],
+                "termsConditions": {
+                  "minimumBalance": {
+                    "value": "0.00",
+                    "currency": "BRL"
+                  },
+                  "elegibilityCriteriaInfo": "https://www.cartos.com.br/termos-de-uso",
+                  "closingProcessInfo": "https://www.cartos.com.br/termos-de-uso"
+                },
+                "incomeRate": {}
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "meta": {
+        "totalRecords": 1,
+        "totalPages": 1
+    },
+    "links": {
+      "self": "https://api.cartos.com.br/open-banking/products-services/v1/business-accounts"
+    }
+  }

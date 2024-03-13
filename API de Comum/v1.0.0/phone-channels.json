@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "participant": {
+                "brand": "Cartos SCD SA",
+                "name": "Cartos SCD SA",
+                "cnpjNumber": "21332862000191"
+            },
+            "identification": {
+                "type": "SAC",
+                "phones": [
+                    {
+                        "countryCallingCode": "55",
+                        "areaCode": "11",
+                        "number": "33881500"
+                    },
+                    {
+                        "countryCallingCode": "55",
+                        "areaCode": "",
+                        "number": "40039850"
+                    },
+                    {
+                        "countryCallingCode": "55",
+                        "areaCode": "11",
+                        "number": "39002980"
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "name": "ANTECIPACAO_DE_PLR_PPR_E_CONTA_DIGITAL",
+                    "code": "ANTECIPACAO_PLR_PPR_CONTA_DIGITAL"
+                },
+                {
+                    "name": "MAQUININHA_DE_CARTAO",
+                    "code": "MAQUININHA_DE_CARTAO"
+                },
+                {
+                    "name": "SAC",
+                    "code": "SAC"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "totalRecords": 1,
+        "totalPages": 1
+    },
+    "links": {
+        "self": "https://api.cartos.com/open-banking/channels/v2/phone-channels"
+    }
+}

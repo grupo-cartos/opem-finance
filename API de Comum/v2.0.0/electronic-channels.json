@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Cartos SCD SA",
+        "name": "Cartos SCD SA",
+        "cnpjNumber": "21332862000191"
+      },
+      "identification": {
+        "type": "INTERNET_BANKING",
+        "urls": [
+          "https://www.cartos.com.br",
+          "https://www.cartos.com.br/atendimento/comercial",
+          "https://www.cartos.com.br/atendimento/call-center#faq",
+          "https://www.cartos.com.br/ouvidoria",
+          "https://www.cartos.com.br/atendimento/call-center"
+        ]
+      },
+      "services": [
+        {
+          "name": "CANCELAMENTO",
+          "code": "CANCELAMENTO"
+        },
+        {
+          "name": "RECLAMACOES",
+          "code": "RECLAMACOES"
+        },
+        {
+          "name": "INFORMACOES",
+          "code": "INFORMACOES"
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.cartos.com/open-banking/channels/v2/electronic-channels"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}
